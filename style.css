@@ -1,0 +1,19 @@
+body {
+  font-family: "Oxygen", sans-serif;
+  color: black;
+}
+
+.myfilter {
+  margin: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.mybox {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin: 120px;
+  transform: rotate(2.5turn);
+}

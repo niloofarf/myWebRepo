@@ -1,0 +1,23 @@
+#myapple {
+  color: red;
+}
+
+ul li {
+  color: green;
+}
+
+p ~ div:first-of-type {
+  color: hotpink;
+  font-size: 2.5em;
+}
+
+div p:nth-child(1) {
+  color: violet;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.mycenter {
+  column-count: 3;
+  column-rule: 5px orangered groove;
+}
