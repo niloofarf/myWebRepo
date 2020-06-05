@@ -1,19 +1,54 @@
 body {
-  font-family: "Oxygen", sans-serif;
-  color: black;
+  font-family: "Roboto", sans-serif;
+  color: rgb(46, 46, 46);
 }
 
-.myfilter {
-  margin: 100px;
+.navbar {
+  color: white;
+}
+
+.nav-link {
+  color: #d2e5f1 !important;
+}
+li.active a.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.nav-item.btn.btn-primary {
+  background-color: transparent;
+  border: transparent;
+}
+
+.nav-item.btn.btn-primary.active {
+  background-color: #70c6e0;
+  border: transparent;
+}
+
+.nav-item.btn.btn-primary:hover {
+  background-color: #70c6e0;
+  border: transparent;
+}
+.myleftCard {
+  font-size: 0.9em;
+}
+
+.myshadow {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+  -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.myicon {
+  vertical-align: sub;
+  margin-right: 10px;
+  font-size: 25px !important;
+  color: #7d9eaa;
+}
+
+.mytitr {
   font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-}
-
-.mybox {
-  width: 100px;
-  height: 100px;
-  background-color: brown;
-  margin: 120px;
-  transform: rotate(2.5turn);
+  font-size: 1.3em;
 }
