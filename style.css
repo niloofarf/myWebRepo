@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: rgb(46, 46, 46);
+  color: rgb(73, 73, 73);
 }
 
 .navbar {
@@ -41,14 +41,50 @@ li.active a.nav-link {
   -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
 }
 
+.myicon-color {
+  color: #71a5b8;
+}
 .myicon {
   vertical-align: sub;
   margin-right: 10px;
-  font-size: 25px !important;
-  color: #7d9eaa;
+  font-size: 22px !important;
 }
 
 .mytitr {
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.4em;
+}
+
+.myicon-big {
+  vertical-align: bottom;
+  margin-right: 12px;
+  font-size: 37px !important;
+}
+
+.mytitr-big {
+  font-size: 1.7em;
+  color: rgb(73, 73, 73);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.mytitr2 {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.myicon3 {
+  vertical-align: sub;
+  margin-right: 10px;
+  font-size: 22px !important;
+}
+
+.mytitr3 {
+  font-size: 1em;
+  color: #6f909c;
+}
+
+.mydesc {
+  font-size: 1em;
+  color: rgb(73, 73, 73);
+  font-family: "Noto Sans", sans-serif;
 }
