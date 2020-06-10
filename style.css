@@ -23,10 +23,12 @@ body {
 }
 li.active a.nav-link {
   color: white !important;
+  background-color: #70c6e0 !important;
 }
 
 .nav-link:hover {
   color: white !important;
+  background-color: #70c6e0 !important;
 }
 
 .myleftCard {
