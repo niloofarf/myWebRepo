@@ -21,15 +21,6 @@ body {
 .nav-link {
   color: #d2e5f1 !important;
 }
-li.active a.nav-link {
-  color: white !important;
-  background-color: #70c6e0 !important;
-}
-
-.nav-link:hover {
-  color: white !important;
-  background-color: #70c6e0 !important;
-}
 
 .myleftCard {
   font-size: 0.9em;
