@@ -1,10 +1,21 @@
 body {
   font-family: "Roboto", sans-serif;
   color: rgb(73, 73, 73);
+  position: relative;
 }
 
 .navbar {
-  color: white;
+  color: white !important;
+}
+
+.nav-pills > li > a.active {
+  background-color: #70c6e0 !important;
+  color: white !important;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #70c6e0 !important;
+  color: white !important;
 }
 
 .nav-link {
@@ -18,20 +29,6 @@ li.active a.nav-link {
   color: white !important;
 }
 
-.nav-item.btn.btn-primary {
-  background-color: transparent;
-  border: transparent;
-}
-
-.nav-item.btn.btn-primary.active {
-  background-color: #70c6e0;
-  border: transparent;
-}
-
-.nav-item.btn.btn-primary:hover {
-  background-color: #70c6e0;
-  border: transparent;
-}
 .myleftCard {
   font-size: 0.9em;
 }
