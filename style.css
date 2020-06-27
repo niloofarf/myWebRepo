@@ -60,7 +60,7 @@ body {
 
 .mytitr2 {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .myicon3 {
@@ -70,12 +70,12 @@ body {
 }
 
 .mytitr3 {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #6f909c;
 }
 
 .mydesc {
-  font-size: 1em;
+  font-size: 0.95em;
   color: rgb(73, 73, 73);
   font-family: "Noto Sans", sans-serif;
 }
