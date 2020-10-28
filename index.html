@@ -1,268 +1,633 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Niloofar Fathi</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Niloofar Fathi</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon2.png" />
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="favicon2.png">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-</head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav
+      class="navbar navbar-expand-md navbar-dark bg-info fixed-top shadow-sm"
+    >
+      <div class="d-flex flex-column ml-3 ml-md-5">
+        <div>
+          <a href="#" class="navbar-brand text-white">Niloofar Fathi</a>
+        </div>
+        <div><small>M.Sc. in Software Engineering</small></div>
+      </div>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarMenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top shadow-sm">
-    <div class="d-flex flex-column ml-3 ml-md-5">
-      <div><a href="#" class="navbar-brand text-white">Niloofar Fathi</a></div>
-      <div><small>M.Sc. in Software Engineering</small></div>
+      <div class="collapse navbar-collapse mx-0 mr-md-5" id="navbarMenu">
+        <ul class="nav nav-pills mx-0 ml-md-auto">
+          <li class="nav-item mx-0 mx-md-1 d-block d-md-none">
+            <a href="#Home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item mx-0 mx-md-1">
+            <a href="#Education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item mx-0 mx-md-1">
+            <a href="#Work" class="nav-link">Work</a>
+          </li>
+          <li class="nav-item mx-0 mx-md-1">
+            <a href="#Portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item mx-0 mx-md-1">
+            <a href="#Contact" class="nav-link">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div style="height: 0px" id="Home"></div>
+
+    <div class="container-fluid mr-auto ml-auto">
+      <div class="row">
+        <div class="col-12 col-md-4 myleftCard">
+          <div style="height: 80px"></div>
+          <div class="card ml-1 ml-md-4 mt-3 mb-md-5 myshadow">
+            <img src="photo.jpg" class="card-img-top border-bottom" />
+            <div class="card-body">
+              <div class="border-bottom pb-1">
+                <div class="mb-3">
+                  <i class="material-icons myicon myicon-color"
+                    >business_center</i
+                  >
+                  <span>UI/UX Designer</span>
+                </div>
+                <div class="mb-3">
+                  <i class="material-icons myicon myicon-color">mail_outline</i>
+                  <span>niloofar_fathi [at] alumni.iust.ac {dot} ir</span>
+                </div>
+                <div class="mb-3">
+                  <i class="material-icons myicon myicon-color">phone</i>
+                  <span>+98-913-128-4133</span>
+                </div>
+                <div class="mb-3">
+                  <i class="material-icons myicon myicon-color">home</i>
+                  <span>Isfahan, Iran</span>
+                </div>
+              </div>
+
+              <div class="border-bottom pb-3 mt-4">
+                <div class="mb-2">
+                  <i class="material-icons myicon myicon-color">settings</i>
+                  <span class="mytitr">Skills</span>
+                </div>
+                <br />
+                <div class="mb-2">User Experience & Usability</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 90%">90%</div>
+                </div>
+                <br />
+                <div class="mb-2">Adobe Photoshop</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 80%">80%</div>
+                </div>
+                <br />
+                <div class="mb-2">Adobe XD</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 75%">75%</div>
+                </div>
+                <br />
+                <div class="mb-2">HTML, CSS & Bootstrap</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 90%">90%</div>
+                </div>
+                <br />
+                <div class="mb-2">JavaScript & JQuery</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 80%">80%</div>
+                </div>
+                <br />
+                <div class="mb-2">React</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 70%">70%</div>
+                </div>
+                <br />
+                <div class="mb-2">C#, Linq & MVC</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 65%">65%</div>
+                </div>
+              </div>
+
+              <div class="pb-3 mt-4">
+                <div class="mx-2">
+                  <i class="material-icons myicon myicon-color">public</i>
+                  <span class="mytitr">Languages</span>
+                </div>
+                <br />
+                <div class="mb-2">Farsi / Persian</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 100%">
+                    Native
+                  </div>
+                </div>
+                <br />
+                <div class="mb-2">English</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 88%">
+                    Fluent
+                  </div>
+                </div>
+                <br />
+                <div class="mb-2">French</div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 45%">
+                    Intermediate
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-8">
+          <div style="height: 3px" id="Education"></div>
+          <div style="height: 80px" class="d-none d-md-block"></div>
+
+          <!-- Education-->
+          <div class="card ml-1 ml-md-0 mr-0 mr-md-4 mt-3 myshadow">
+            <div class="p-4">
+              <div class="mb-4 mt-2">
+                <i class="material-icons myicon-big myicon-color">school</i>
+                <span class="mytitr-big">Education</span>
+              </div>
+
+              <div class="border-bottom pt-2 pb-2 pl-3">
+                <div class="mytitr2 mb-2">M.Sc. in Software Engineering</div>
+
+                <div class="my-2">
+                  <i class="material-icons myicon3 myicon-color">date_range</i>
+                  <span class="mytitr3">Sep 2013 - Mar 2016 </span>
+                </div>
+                <div class="mydesc mb-3">
+                  Iran University of Science and Technology (Tehran - Iran)
+                </div>
+              </div>
+
+              <div class="pt-3 pb-2 pl-3">
+                <div class="mytitr2 mb-2">B.Sc. in Software Engineering</div>
+
+                <div class="my-2">
+                  <i class="material-icons myicon3 myicon-color">date_range</i>
+                  <span class="mytitr3">Sep 2003 - Feb 2008 </span>
+                </div>
+                <div class="mydesc" id="Work">
+                  Isfahan University of Technology (Isfahan - Iran)
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work-->
+
+          <div class="card ml-1 ml-md-0 mr-0 mr-md-4 mt-3 myshadow">
+            <div class="p-4">
+              <div class="mb-4 mt-2">
+                <i class="material-icons myicon-big myicon-color">work</i>
+                <span class="mytitr-big">Work Experience</span>
+              </div>
+
+              <div class="border-bottom pt-2 pb-2 pl-3">
+                <div class="mytitr2 mb-2">
+                  Network Security & ISMS Consultant
+                </div>
+
+                <div class="my-2">
+                  <i class="material-icons myicon3 myicon-color">date_range</i>
+                  <span class="mytitr3">Sep 2018 - Mar 2020 </span>
+                </div>
+                <div class="mydesc mb-3">IntelliCom Co. (Isfahan - Iran)</div>
+              </div>
+
+              <div class="border-bottom pt-3 pb-2 pl-3">
+                <div class="mytitr2 mb-2">
+                  Research Assistant / Member of Development Team
+                </div>
+
+                <div class="my-2">
+                  <i class="material-icons myicon3 myicon-color">date_range</i>
+                  <span class="mytitr3">Sep 2013 - Sep 2014 </span>
+                </div>
+                <div class="mydesc mb-3">
+                  The Laboratory of Parallel Processors at Iran University of
+                  Science and Technology (Tehran - Iran)
+                </div>
+              </div>
+
+              <div class="border-bottom pt-3 pb-2 pl-3">
+                <div class="mytitr2 mb-2">
+                  Designer & Developer of Security Software / R&D Member
+                </div>
+
+                <div class="my-2">
+                  <i class="material-icons myicon3 myicon-color">date_range</i>
+                  <span class="mytitr3">Jun 2011 - Sep 2013 </span>
+                </div>
+                <div class="mydesc mb-3">Imenpardaz Co. (Isfahan - Iran)</div>
+              </div>
+
+              <div class="pt-3 pb-2 pl-3">
+                <div class="mytitr2 mb-2">
+                  Graduate Researcher / Director of Technical and Operational
+                  Team
+                </div>
+
+                <div class="my-2">
+                  <i class="material-icons myicon3 myicon-color">date_range</i>
+                  <span class="mytitr3">Sep 2009 - Apr 2011 </span>
+                </div>
+                <div class="mydesc" id="Portfolio">
+                  APA Computer Security Incident Response Team (APA-IUT CERT)
+                  (Isfahan - Iran)
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio -->
+
+          <div class="card ml-1 ml-md-0 mr-0 mr-md-4 mt-3 myshadow">
+            <div class="p-4">
+              <div class="mb-4 mt-2">
+                <i class="material-icons myicon-big myicon-color"
+                  >chrome_reader_mode</i
+                >
+                <span class="mytitr-big">Portfolio (Some of my Designs)</span>
+              </div>
+
+              <div class="border-bottom pt-2 pb-2 pl-3">
+                <div class="mytitr2 mb-2">Online Pizza</div>
+
+                <div class="my-2">
+                  <i class="material-icons myicon3 myicon-color">date_range</i>
+                  <span class="mytitr3">2020 </span>
+                </div>
+                <div class="mydesc mb-3">
+                  Website - HTML, Bootstrap, JavaScript & ReactJs &nbsp;
+                  <button
+                    id="myBtn"
+                    class="btn btn-sm btn-outline-success"
+                    onclick="showModal('myModal1')"
+                  >
+                    View Photos
+                  </button>
+                  <a
+                    href="https://niloofarf.github.io/online-pizza/"
+                    class="btn btn-sm btn-outline-info"
+                  >
+                    WebSite
+                  </a>
+                </div>
+              </div>
+
+              <div class="border-bottom pt-3 pb-2 pl-3">
+                <div class="mytitr2 mb-2">Gulub.ca</div>
+
+                <div class="my-2">
+                  <i class="material-icons myicon3 myicon-color">date_range</i>
+                  <span class="mytitr3">2012 </span>
+                </div>
+                <div class="mydesc mb-3">
+                  CMS - HTML, JavaScript, JQuery & PHP &nbsp;
+                  <button
+                    id="myBtn"
+                    class="btn btn-sm btn-outline-success"
+                    onclick="showModal('myModal2')"
+                  >
+                    View Photos
+                  </button>
+                </div>
+              </div>
+
+              <div class="pt-3 pb-2 pl-3">
+                <div class="mytitr2 mb-2">ImenPardaz.com</div>
+
+                <div class="my-2">
+                  <i class="material-icons myicon3 myicon-color">date_range</i>
+                  <span class="mytitr3">2011 </span>
+                </div>
+                <div class="mydesc" id="Contact">
+                  Website - HTML, JavaScript & PHP &nbsp;
+                  <button
+                    id="myBtn"
+                    class="btn btn-sm btn-outline-success"
+                    onclick="showModal('myModal3')"
+                  >
+                    View Photos
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Me -->
+
+          <div class="card ml-1 ml-md-0 mr-0 mr-md-4 mt-3 myshadow">
+            <div class="p-4">
+              <div class="mb-4 mt-2">
+                <i class="material-icons myicon-big myicon-color"
+                  >perm_contact_calendar</i
+                >
+                <span class="mytitr-big">Contact Me</span>
+              </div>
+
+              <div class="pt-2 pb-2 pl-3">
+                <div class="mytitr2 mb-2">Please feel free to contact me:</div>
+                <br />
+
+                <div class="mydesc mb-3">
+                  <i class="material-icons myicon myicon-color">mail_outline</i>
+                  <span>niloofar_fathi [at] alumni.iust.ac {dot} ir</span>
+                </div>
+                <div class="mydesc mb-3">
+                  <i class="fa fa-linkedin-square myicon myicon-color"></i>
+                  <span
+                    ><a
+                      href="https://www.linkedin.com/in/niloofar-fathi-21814547/"
+                      >niloofar-fathi-21814547</a
+                    ></span
+                  >
+                </div>
+                <div class="mydesc mb-3">
+                  <i class="fa fa-github myicon myicon-color"></i>
+                  <span
+                    ><a href="https://github.com/niloofarf">niloofarf</a></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br />
+          <br />
+        </div>
+      </div>
     </div>
 
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse mx-0 mr-md-5" id="navbarMenu">
-      <ul class="nav nav-pills mx-0 ml-md-auto ">
-        <li class="nav-item mx-0 mx-md-1  d-block d-md-none"><a href="#Home" class="nav-link">Home</a></li>
-        <li class="nav-item mx-0 mx-md-1 "><a href="#Education" class="nav-link">Education</a>
-        </li>
-        <li class="nav-item mx-0 mx-md-1 "><a href="#Work" class="nav-link">Work</a></li>
-        <li class="nav-item mx-0 mx-md-1 "><a href="#Portfolio" class="nav-link">Portfolio</a></li>
-        <li class="nav-item mx-0 mx-md-1 "><a href="#Contact" class="nav-link">Contact Me</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div style="height: 0px; " id="Home"></div>
-
-  <div class="container-fluid mr-auto ml-auto">
-    <div class="row">
-      <div class="col-12  col-md-4 myleftCard">
-        <div style="height: 80px;"></div>
-        <div class="card ml-1 ml-md-4 mt-3 mb-md-5 myshadow">
-          <img src="photo.jpg" class="card-img-top border-bottom">
-          <div class="card-body">
-            <div class="border-bottom pb-1">
-              <div class="mb-3">
-                <i class="material-icons  myicon myicon-color">business_center</i>
-                <span>UI/UX Designer</span>
-              </div>
-              <div class="mb-3">
-                <i class="material-icons  myicon myicon-color">mail_outline</i>
-                <span>niloofar_fathi [at] alumni.iust.ac {dot} ir</span>
-              </div>
-              <div class="mb-3">
-                <i class="material-icons  myicon myicon-color">phone</i>
-                <span>+98-913-128-4133</span>
-              </div>
-              <div class="mb-3">
-                <i class="material-icons  myicon myicon-color">home</i>
-                <span>Isfahan, Iran</span>
+    <!-- The Modal 1 -->
+    <div id="myModal1" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>Portfolio - online Pizza</h5>
+          <span class="close" onclick="closeModal('myModal1')">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col col-sm-2 imagesBg">
+              <div class="d-flex flex-column justify-content-center">
+                <img
+                  src="onlinepizza/onlinepizza1.png"
+                  class="modalImg rounded mx-auto"
+                  onclick="assignImg('onlinepizzaImg', 'onlinepizza/onlinepizza1.png')"
+                />
+                <img
+                  src="onlinepizza/onlinepizza2.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('onlinepizzaImg', 'onlinepizza/onlinepizza2.png')"
+                />
+                <img
+                  src="onlinepizza/onlinepizza3.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('onlinepizzaImg', 'onlinepizza/onlinepizza3.png')"
+                />
+                <img
+                  src="onlinepizza/onlinepizza4.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('onlinepizzaImg', 'onlinepizza/onlinepizza4.png')"
+                />
               </div>
             </div>
-
-            <div class="border-bottom pb-3 mt-4">
-              <div class="mb-2">
-                <i class="material-icons  myicon myicon-color">settings</i>
-                <span class="mytitr">Skills</span>
-              </div>
-              <br />
-              <div class="mb-2">User Experience & Usability</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 90%;">90%</div>
-              </div>
-              <br />
-              <div class="mb-2">Adobe Photoshop</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 80%;">80%</div>
-              </div>
-              <br />
-              <div class="mb-2">Adobe XD</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 75%;">75%</div>
-              </div>
-              <br />
-              <div class="mb-2">HTML, CSS & Bootstrap</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 90%;">90%</div>
-              </div>
-              <br />
-              <div class="mb-2">JavaScript & JQuery</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 80%;">80%</div>
-              </div>
-              <br />
-              <div class="mb-2">React</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 70%;">70%</div>
-              </div>
-              <br />
-              <div class="mb-2">C#, Linq & MVC</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 65%;">65%</div>
+            <div class="col col-sm-10">
+              <div class="d-flex flex-column justify-content-center">
+                <img
+                  src="onlinepizza/onlinepizza1.png"
+                  id="onlinepizzaImg"
+                  class="modalImg2 rounded align-self-center"
+                />
               </div>
             </div>
-
-            <div class="pb-3 mt-4">
-              <div class="mx-2">
-                <i class="material-icons  myicon myicon-color">public</i>
-                <span class="mytitr">Languages</span>
-              </div>
-              <br />
-              <div class="mb-2">Farsi / Persian</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 100%;">Native</div>
-              </div>
-              <br />
-              <div class="mb-2">English</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 88%;">Fluent</div>
-              </div>
-              <br />
-              <div class="mb-2">French</div>
-              <div class="progress">
-                <div class="progress-bar bg-info" style="width: 45%;">Intermediate</div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-8">
-        <div style="height: 3px;" id="Education"></div>
-        <div style="height: 80px;" class="d-none d-md-block"></div>
+    </div>
 
-        <!-- Education-->
-        <div class="card ml-1 ml-md-0 mr-0 mr-md-4 mt-3 myshadow">
-          <div class="p-4">
-
-            <div class="mb-4 mt-2 ">
-              <i class="material-icons  myicon-big myicon-color">school</i>
-              <span class="mytitr-big">Education</span>
-            </div>
-
-            <div class="border-bottom pt-2 pb-2 pl-3">
-              <div class="mytitr2 mb-2">M.Sc. in Software Engineering </div>
-
-              <div class="my-2">
-                <i class="material-icons  myicon3 myicon-color">date_range</i>
-                <span class="mytitr3">Sep 2013 - Mar 2016 </span>
+    <!-- The Modal 2 -->
+    <div id="myModal2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>Portfolio - gulub.ca</h5>
+          <span class="close" onclick="closeModal('myModal2')">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col col-sm-2 imagesBg">
+              <div class="d-flex flex-column justify-content-center">
+                <img
+                  src="gulub/gulub1.png"
+                  class="modalImg rounded mx-auto"
+                  onclick="assignImg('gulubImg', 'gulub/gulub1.png')"
+                />
+                <img
+                  src="gulub/gulub2.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('gulubImg', 'gulub/gulub2.png')"
+                />
+                <img
+                  src="gulub/gulub3.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('gulubImg', 'gulub/gulub3.png')"
+                />
+                <img
+                  src="gulub/gulub4.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('gulubImg', 'gulub/gulub4.png')"
+                />
+                <img
+                  src="gulub/gulub5.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('gulubImg', 'gulub/gulub5.png')"
+                />
+                <img
+                  src="gulub/gulub6.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('gulubImg', 'gulub/gulub6.png')"
+                />
+                <img
+                  src="gulub/gulub7.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('gulubImg', 'gulub/gulub7.png')"
+                />
+                <img
+                  src="gulub/gulub8.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('gulubImg', 'gulub/gulub8.png')"
+                />
               </div>
-              <div class="mydesc mb-3">Iran University of Science and Technology (Tehran - Iran)</div>
             </div>
-
-
-            <div class="pt-3 pb-2 pl-3">
-              <div class="mytitr2 mb-2">B.Sc. in Software Engineering </div>
-
-              <div class="my-2">
-                <i class="material-icons  myicon3 myicon-color">date_range</i>
-                <span class="mytitr3">Sep 2003 - Feb 2008 </span>
+            <div class="col col-sm-10">
+              <div class="d-flex flex-column justify-content-center">
+                <img
+                  src="gulub/gulub1.png"
+                  id="gulubImg"
+                  class="modalImg2 rounded align-self-center"
+                />
               </div>
-              <div class="mydesc" id="Work">Isfahan University of Technology (Isfahan - Iran)</div>
             </div>
-
-
           </div>
         </div>
-
-        <!-- Work-->
-
-        <div class="card  ml-1 ml-md-0 mr-0 mr-md-4 mt-3 myshadow">
-          <div class="p-4">
-
-            <div class="mb-4 mt-2 ">
-              <i class="material-icons  myicon-big myicon-color">work</i>
-              <span class="mytitr-big">Work Experience</span>
-            </div>
-
-            <div class="border-bottom pt-2 pb-2 pl-3">
-              <div class="mytitr2 mb-2">Network Security & ISMS Consultant </div>
-
-              <div class="my-2">
-                <i class="material-icons  myicon3 myicon-color">date_range</i>
-                <span class="mytitr3">Sep 2018 - Mar 2020 </span>
-              </div>
-              <div class="mydesc mb-3">IntelliCom Co. (Isfahan - Iran)</div>
-            </div>
-
-
-            <div class="border-bottom pt-3 pb-2 pl-3">
-              <div class="mytitr2 mb-2">Research Assistant / Member of Development Team </div>
-
-              <div class="my-2">
-                <i class="material-icons  myicon3 myicon-color">date_range</i>
-                <span class="mytitr3">Sep 2013 - Sep 2014 </span>
-              </div>
-              <div class="mydesc mb-3">The Laboratory of Parallel Processors at Iran University of Science and
-                Technology
-                (Tehran - Iran)</div>
-            </div>
-
-
-            <div class="border-bottom pt-3 pb-2 pl-3">
-              <div class="mytitr2 mb-2"> Designer & Developer of Security Software / R&D Member </div>
-
-              <div class="my-2">
-                <i class="material-icons  myicon3 myicon-color">date_range</i>
-                <span class="mytitr3">Jun 2011 - Sep 2013 </span>
-              </div>
-              <div class="mydesc mb-3">Imenpardaz Co. (Isfahan - Iran)</div>
-            </div>
-
-
-            <div class="pt-3 pb-2 pl-3">
-              <div class="mytitr2 mb-2">Graduate Researcher / Director of Technical and Operational Team </div>
-
-              <div class="my-2">
-                <i class="material-icons  myicon3 myicon-color">date_range</i>
-                <span class="mytitr3">Sep 2009 - Apr 2011 </span>
-              </div>
-              <div class="mydesc">APA Computer Security Incident Response Team (APA-IUT CERT)
-                (Isfahan - Iran)</div>
-            </div>
-
-          </div>
-        </div>
-
-        <br /> <br />
-
       </div>
     </div>
 
+    <!-- The Modal 3 -->
+    <div id="myModal3" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>Portfolio - imenpardaz.com</h5>
+          <span class="close" onclick="closeModal('myModal3')">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col col-sm-2 imagesBg">
+              <div class="d-flex flex-column justify-content-center">
+                <img
+                  src="imenpardaz/imenpardaz1.png"
+                  class="modalImg rounded mx-auto"
+                  onclick="assignImg('imenPardazImg', 'imenpardaz/imenpardaz1.png')"
+                />
+                <img
+                  src="imenpardaz/imenpardaz2.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('imenPardazImg', 'imenpardaz/imenpardaz2.png')"
+                />
+                <img
+                  src="imenpardaz/imenpardaz3.png"
+                  class="modalImg rounded"
+                  onclick="assignImg('imenPardazImg', 'imenpardaz/imenpardaz3.png')"
+                />
+                <img
+                  src="imenpardaz/imenpardaz4.jpg"
+                  class="modalImg rounded"
+                  onclick="assignImg('imenPardazImg', 'imenpardaz/imenpardaz4.jpg')"
+                />
+                <img
+                  src="imenpardaz/imenpardaz5.jpg"
+                  class="modalImg rounded"
+                  onclick="assignImg('imenPardazImg', 'imenpardaz/imenpardaz5.jpg')"
+                />
+                <img
+                  src="imenpardaz/imenpardaz6.jpg"
+                  class="modalImg rounded"
+                  onclick="assignImg('imenPardazImg', 'imenpardaz/imenpardaz6.jpg')"
+                />
+              </div>
+            </div>
+            <div class="col col-sm-10">
+              <div class="d-flex flex-column justify-content-center">
+                <img
+                  src="imenpardaz/imenpardaz1.png"
+                  id="imenPardazImg"
+                  class="modalImg2 rounded align-self-center"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 
+  <script>
+    // When the user clicks the button, open the modal
+    function showModal(mymodal) {
+      let modal = document.getElementById(mymodal);
+      modal.style.display = "block";
+    }
 
-  </div>
-  </div>
-  </div>
+    // When the user clicks on <span> (x), close the modal
+    function closeModal(mymodal) {
+      let modal = document.getElementById(mymodal);
+      modal.style.display = "none";
+    }
 
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      let modal1 = document.getElementById("myModal1");
+      let modal2 = document.getElementById("myModal2");
+      let modal3 = document.getElementById("myModal3");
+      if (event.target == modal1) {
+        modal1.style.display = "none";
+      }
+      if (event.target == modal2) {
+        modal2.style.display = "none";
+      }
+      if (event.target == modal3) {
+        modal3.style.display = "none";
+      }
+    };
 
-</body>
+    function assignImg(a, b) {
+      document.getElementById(a).src = b;
+    }
 
-<script>
-
-
-  /*
+    /*
   $(document).ready(function () {
     if (screen.width <= 768 || window.innerWidth <= 768) {
       $(".nav-link").removeClass("active");
@@ -281,8 +646,5 @@
     });
   });
 */
-
-
-</script>
-
+  </script>
 </html>
