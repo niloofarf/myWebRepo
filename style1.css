@@ -1,0 +1,207 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(73, 73, 73);
+  position: relative;
+  background-color: rgb(241, 241, 241);
+}
+
+.navbar {
+  color: white !important;
+  z-index: 400 !important;
+}
+
+.nav-pills > li > a.active {
+  background-color: #70c6e0 !important;
+  color: white !important;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #70c6e0 !important;
+  color: white !important;
+}
+
+.nav-link {
+  color: #d2e5f1 !important;
+}
+
+.myleftCard {
+  font-size: 0.9em;
+}
+
+.myshadow {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+  -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.myicon-color {
+  color: #71a5b8;
+}
+.myicon {
+  vertical-align: sub;
+  margin-right: 10px;
+  font-size: 22px !important;
+}
+
+.mytitr {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.myicon-big {
+  vertical-align: bottom;
+  margin-right: 12px;
+  font-size: 37px !important;
+}
+
+.mytitr-big {
+  font-size: 1.7em;
+  color: rgb(73, 73, 73);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.mytitr2 {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.myicon3 {
+  vertical-align: sub;
+  margin-right: 10px;
+  font-size: 22px !important;
+}
+
+.mytitr3 {
+  font-size: 0.9em;
+  color: #6f909c;
+}
+
+.mydesc {
+  font-size: 0.95em;
+  color: rgb(73, 73, 73);
+  font-family: "Noto Sans", sans-serif;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 500; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  top: calc(50% - 40%);
+  right: calc(50% - 40%);
+  background-color: #fefefe;
+  width: 80%;
+  max-height: 80%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+  box-shadow: 5px 5px 8px #444;
+  z-index: 600;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 12px 16px;
+  background-color: #6f909c;
+  color: rgb(224, 224, 224);
+}
+
+.modal-body {
+  padding: 2px 16px;
+  overflow: auto;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #6f909c;
+  color: white;
+}
+
+@-webkit-keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.modalImg {
+  width: 60%;
+  margin: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid 2px white;
+  box-shadow: 2px 2px 3px #777;
+  cursor: pointer;
+}
+.modalImg2 {
+  width: 90%;
+  margin: 25px 8px;
+  box-shadow: 3px 3px 10px #777;
+}
+.imagesBg {
+  background-color: #eee;
+  border-right: solid 1px #ccc;
+}
+.btn-sm {
+  font-size: 0.7rem;
+}
