@@ -1,11 +1,11 @@
 @font-face {
   font-family: Vazir;
-  src: url("vazir/Vazir.eot");
-  src: url("vazir/Vazir.ttf") format("truetype"),
-    url("vazir/Vazir.eot?#iefix") format("embedded-opentype"),
-    url("vazir/Vazir.woff") format("woff"),
+  src: url("../vazir/Vazir.eot");
+  src: url("../vazir/Vazir.ttf") format("truetype"),
+    url("../vazir/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../vazir/Vazir.woff") format("woff"),
 
-    url("vazir/Vazir.woff2") format("woff2");
+    url("../vazir/Vazir.woff2") format("woff2");
 
   font-weight: normal;
 }
@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Vazir, Tahoma, "Roboto", sans-serif;
   color: rgb(73, 73, 73);
   position: relative;
   background-color: #165C68;
@@ -84,6 +84,7 @@ body {
 }
 
 .ProjectBtnDL {
+  font-family: Vazir, Tahoma;
   color: rgb(252, 231, 232) !important;
   background-color: rgb(236, 16, 27) !important;
   border-color: rgb(236, 16, 27) !important;
@@ -93,6 +94,7 @@ body {
 }
 
 .ProjectBtnDL:hover {
+  font-family: Vazir, Tahoma;
   background-color: rgb(189, 14, 23) !important;
   border-color: rgb(189, 14, 23) !important;
   color: #FFF !important;
@@ -100,6 +102,7 @@ body {
 }
 
 .ProjectBtnBehance {
+  font-family: Vazir, Tahoma;
   color: rgb(252, 231, 232) !important;
   background-color: rgb(39, 39, 39) !important;
   border-color: rgb(39, 39, 39) !important;
@@ -109,6 +112,7 @@ body {
 }
 
 .ProjectBtnBehance:hover {
+  font-family: Vazir, Tahoma;
   color: rgb(252, 231, 232) !important;
   background-color: rgb(15, 15, 15) !important;
   border-color: rgb(15, 15, 15) !important;
@@ -116,6 +120,7 @@ body {
 }
 
 .ProjectBtnDribble {
+  font-family: Vazir, Tahoma;
   color: rgb(252, 231, 232) !important;
   background-color: rgb(214, 5, 92) !important;
   border-color: rgb(214, 5, 92) !important;
@@ -125,6 +130,7 @@ body {
 }
 
 .ProjectBtnDribble:hover {
+  font-family: Vazir, Tahoma;
   color: rgb(252, 231, 232) !important;
   background-color: rgb(175, 1, 74) !important;
   border-color: rgb(175, 1, 74) !important;
@@ -132,6 +138,7 @@ body {
 }
 
 .ProjectBtnDribble2 {
+  font-family: Vazir, Tahoma;
   color: rgb(252, 231, 232) !important;
   background-color: rgb(1, 136, 113) !important;
   border-color: rgb(1, 136, 113) !important;
@@ -140,6 +147,7 @@ body {
 }
 
 .ProjectBtnDribble2:hover {
+  font-family: Vazir, Tahoma;
   color: rgb(252, 231, 232) !important;
   background-color: rgb(1, 92, 77) !important;
   border-color: rgb(1, 92, 77) !important;
