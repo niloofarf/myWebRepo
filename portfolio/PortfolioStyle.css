@@ -1,0 +1,152 @@
+@font-face {
+  font-family: Vazir;
+  src: url("vazir/Vazir.eot");
+  src: url("vazir/Vazir.ttf") format("truetype"),
+    url("vazir/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("vazir/Vazir.woff") format("woff"),
+
+    url("vazir/Vazir.woff2") format("woff2");
+
+  font-weight: normal;
+}
+
+.farsiFont {
+  font-family: Vazir, Tahoma;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(73, 73, 73);
+  position: relative;
+  background-color: #165C68;
+  background: linear-gradient(to bottom, #268292, #165C68, #032227);
+}
+
+.portfolioContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolioRow {
+  width: 100%;
+  max-width: 900px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pageTitle {
+  font-family: Vazir, Tahoma;
+  color: #FFF;
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.myName {
+  font-family: Vazir, Tahoma;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 24px;
+  color: rgb(145, 211, 189);
+}
+
+.myprojectImage {
+  border: solid 3px #FFF;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.myprojectImage:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+  transform: scale(1.02);
+}
+
+.ProjectTitle {
+  font-family: Vazir, Tahoma;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(239, 245, 243);
+  padding-bottom: 4px;
+}
+
+.ProjectDate {
+  font-family: Vazir, Tahoma;
+  font-size: 14px;
+  color: rgb(150, 196, 181);
+  padding-bottom: 12px;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(79, 207, 216, 0.4);
+}
+
+.ProjectBtnDL {
+  color: rgb(252, 231, 232) !important;
+  background-color: rgb(236, 16, 27) !important;
+  border-color: rgb(236, 16, 27) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.ProjectBtnDL:hover {
+  background-color: rgb(189, 14, 23) !important;
+  border-color: rgb(189, 14, 23) !important;
+  color: #FFF !important;
+
+}
+
+.ProjectBtnBehance {
+  color: rgb(252, 231, 232) !important;
+  background-color: rgb(39, 39, 39) !important;
+  border-color: rgb(39, 39, 39) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.ProjectBtnBehance:hover {
+  color: rgb(252, 231, 232) !important;
+  background-color: rgb(15, 15, 15) !important;
+  border-color: rgb(15, 15, 15) !important;
+  margin-left: 8px;
+}
+
+.ProjectBtnDribble {
+  color: rgb(252, 231, 232) !important;
+  background-color: rgb(214, 5, 92) !important;
+  border-color: rgb(214, 5, 92) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.ProjectBtnDribble:hover {
+  color: rgb(252, 231, 232) !important;
+  background-color: rgb(175, 1, 74) !important;
+  border-color: rgb(175, 1, 74) !important;
+  margin-left: 8px;
+}
+
+.ProjectBtnDribble2 {
+  color: rgb(252, 231, 232) !important;
+  background-color: rgb(1, 136, 113) !important;
+  border-color: rgb(1, 136, 113) !important;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.ProjectBtnDribble2:hover {
+  color: rgb(252, 231, 232) !important;
+  background-color: rgb(1, 92, 77) !important;
+  border-color: rgb(1, 92, 77) !important;
+  margin-left: 8px;
+}
+
+.linkBtn {
+  border: none;
+  text-decoration: none;
+}
