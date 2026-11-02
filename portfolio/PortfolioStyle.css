@@ -18,8 +18,9 @@ body {
   font-family: Vazir, Tahoma, "Roboto", sans-serif;
   color: rgb(73, 73, 73);
   position: relative;
-  background-color: #165C68;
+  background-color: #032227;
   background: linear-gradient(to bottom, #268292, #165C68, #032227);
+  background-attachment: fixed;
 }
 
 .portfolioContainer {
